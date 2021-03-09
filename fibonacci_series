@@ -1,0 +1,17 @@
+#print fibonacci series prompting the user to give no of terms
+n=int(input("Enter the number of terms of the Fibonacci series"))
+f=0#first term
+s=1#second term
+if n==1:
+    print(f)
+elif n==2:
+    print(f)
+    print(s)
+else:
+    print(f)
+    print(s)
+    for i in range(2,n+1):
+        m=f+s
+        f=s
+        s=m
+        print(m)
